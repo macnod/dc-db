@@ -1,7 +1,3 @@
-(defpackage :dc-db
-  (:use :cl :postmodern :dc-utilities)
-  (:export :db-cmd))
-
 (in-package :dc-db)
 
 (defmacro db-cmd (ds db-command &rest params)
